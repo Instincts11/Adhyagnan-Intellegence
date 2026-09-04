@@ -9,12 +9,12 @@
 </p>
 
 <p align="center">
-  <img alt="NASA Space Apps" src="https://img.shields.io/badge/NASA-Space%20Apps-0B3D91?logo=nasa&logoColor=white" />
-  <img alt="Next.js" src="https://img.shields.io/badge/Next.js-15-black?logo=nextdotjs" />
-  <img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-8000-009688?logo=fastapi&logoColor=white" />
-  <img alt="Groq" src="https://img.shields.io/badge/LLM-Groq-f55036?logo=groq&logoColor=white" />
-  <img alt="Python" src="https://img.shields.io/badge/Python-3.10+-3776AB?logo=python&logoColor=white" />
-  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white" />
+  <a href="https://www.spaceappschallenge.org/"><img alt="NASA Space Apps" src="https://img.shields.io/badge/NASA-Space%20Apps-0B3D91?logo=nasa&logoColor=white" /></a>
+  <a href="https://nextjs.org/"><img alt="Next.js" src="https://img.shields.io/badge/Next.js-16-black?logo=nextdotjs" /></a>
+  <a href="https://fastapi.tiangolo.com/"><img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-8000-009688?logo=fastapi&logoColor=white" /></a>
+  <a href="https://groq.com/"><img alt="Groq" src="https://img.shields.io/badge/LLM-Groq-f55036" /></a>
+  <a href="https://www.python.org/"><img alt="Python" src="https://img.shields.io/badge/Python-3.10+-3776AB?logo=python&logoColor=white" /></a>
+  <a href="https://www.typescriptlang.org/"><img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white" /></a>
 </p>
 
 Kepler, K2, and TESS filled the NASA archive with transits. Formats never agreed. Most identification is still a human with a plot. This repo is the desk that sits between those catalogs and a one-page brief: two named agents, published classifiers, NASA Eyes in the same cockpit.
@@ -23,7 +23,7 @@ Kepler, K2, and TESS filled the NASA archive with transits. Formats never agreed
 
 | | Piece | What it is |
 | --- | --- | --- |
-| 🖥️ | Cockpit | [astronomia](astronomia) — Next.js 15, TypeScript, dark-space marketing + desks |
+| 🖥️ | Cockpit | [astronomia](astronomia) — Next.js 16, TypeScript, dark-space marketing + desks |
 | 🤖 | Agents | [ai_agents](ai_agents) — FastAPI, Johannes Kepler, Grace Hopper, TAP, arXiv, Groq |
 
 Built for NASA Space Apps. Groq is the default language key so a classroom can run it without a credit card.
@@ -151,7 +151,7 @@ API lives at `http://localhost:8000` (`/docs` for Swagger).
 ## 🧱 Stack
 
 ```
-astronomia/          Next.js 15 · React 18 · Tailwind 4 · Inter Tight + Instrument Serif
+astronomia/          Next.js 16 · React 18 · Tailwind 4 · Inter Tight + Instrument Serif
   src/app/           App Router pages
   src/app/components/marketing/   Shared hero, header, CTA, pastel headings
 ai_agents/           FastAPI · openai-agents · astroquery · scikit-learn
